@@ -1,0 +1,28 @@
+body {
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+  
+  }
+.counter {
+    width: 30rem;
+    height: 20rem;
+    background-color: rgb(192, 166, 166);
+    border: 2px solid orange;
+    border-radius: 2rem;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+  .counter input{
+    border: none;
+    background: none;
+    margin: 2rem 5rem;
+
+    font-size:2rem;
+  }
